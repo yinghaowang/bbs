@@ -1,0 +1,5 @@
+将 rocboss_by_user.sql 导入到mysql数据库
+
+然后请完整配置 config.php ，并给于相关文件夹777权限
+
+手动安装后的默认管理员账号 admin 密码 123123

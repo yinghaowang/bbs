@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule say-([0-9]{1,}).html$ index.php?w=read&id=$1
+    RewriteRule exam-([0-9]{1,}).html$ index.php?w=exam&id=$1
+</IfModule>
+
+<FilesMatch (.*)\.(tpl)$>
+    Order allow,deny
+    deny from all
+</FilesMatch>

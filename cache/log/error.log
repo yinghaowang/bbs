@@ -1,0 +1,76 @@
+2015-02-04 14:51:54=>MySQL Query Error: SELECT `roc_topic`.*,`roc_user`.`nickname` as `nickname`,`roc_club`.`clubname` as `clubname` FROM `roc_topic`,`roc_user`,`roc_club` WHERE `roc_topic`.`uid` = `roc_user`.`uid` AND `roc_club`.`schoolid`=B1107 AND `roc_topic`.`cid` = `roc_club`.`cid` AND `roc_topic`.`cid` = 1 ORDER BY `roc_topic`.`istop` DESC, `roc_topic`.`lasttime` DESC LIMIT 0,30
+2015-02-04 14:51:55=>MySQL Query Error: SELECT `roc_topic`.*,`roc_user`.`nickname` as `nickname`,`roc_club`.`clubname` as `clubname` FROM `roc_topic`,`roc_user`,`roc_club` WHERE `roc_topic`.`uid` = `roc_user`.`uid` AND `roc_club`.`schoolid`=B1107 AND `roc_topic`.`cid` = `roc_club`.`cid` AND `roc_topic`.`cid` = 1 ORDER BY `roc_topic`.`istop` DESC, `roc_topic`.`lasttime` DESC LIMIT 0,30
+2015-02-05 09:17:02=>MySQL Query Error: SELECT `roc_topic`.*,`roc_user`.`nickname` as `nickname`,`roc_club`.`clubname` as `clubname` FROM `roc_topic`,`roc_user`,`roc_club` WHERE `roc_topic`.`uid` = `roc_user`.`uid` AND `roc_`topic.`schoolid` = 'B1107'AND `roc_topic`.`cid` = `roc_club`.`cid`  ORDER BY `roc_topic`.`istop` DESC, `roc_topic`.`lasttime` DESC LIMIT 0,30
+2015-02-06 10:07:12=>MySQL Query Error:  select `roc_Exam`.* from `roc_Exam` WHERE 1 ORDER BY Id ASC Limit0,30
+2015-02-06 14:19:59=>MySQL Query Error:  select `roc_exam`.* from `roc_exam` WHERE `roc_question`.`id`='1'  ORDER BY Id ASC Limit 0,30
+2015-02-06 14:39:58=>MySQL Query Error: select count(`roc_option`.*) as number from `roc_option` where `roc_option`.`Eid`=2
+2015-02-06 14:41:59=>MySQL Query Error: select count(`roc_option`.*) as number from `roc_option` where `roc_option`.`EId`=2
+2015-02-06 17:36:22=>MySQL Query Error: SELECT `roc_topic`.*,`roc_user`.`nickname` as `nickname`,`roc_club`.`clubname` as `clubname` FROM `roc_topic`,`roc_user`,`roc_club` WHERE `roc_topic`.`uid` = `roc_user`.`uid` AND `roc_club`.`schoolid`='B1107' AND `roc_topic`.`cid` = `roc_club`.`cid` AND `roc_topic`.`cid` = 1 ORDER BY `roc_topic`.`istop` DESC, `roc_topic`.`topic` DESC LIMIT 0,30
+2015-02-09 09:02:47=>MySQL Query Error: SELECT `roc_topic`.*,`roc_user`.`nickname` as `nickname`,`roc_club`.`clubname` as `clubname` FROM `roc_topic`,`roc_user`,`roc_club` WHERE `roc_topic`.`uid` = `roc_user`.`uid` AND `roc_topic`.`schoolid` = ''AND `roc_topic`.`cid` = `roc_club`.`cid`  AND `roc_topic`.`cid` NOT IN(0) ORDER BY `roc_topic`.`istop` DESC, `roc_topic`.`topic` DESC LIMIT 0,30
+2015-02-09 09:03:11=>MySQL Query Error: SELECT `roc_topic`.*,`roc_user`.`nickname` as `nickname`,`roc_club`.`clubname` as `clubname` FROM `roc_topic`,`roc_user`,`roc_club` WHERE `roc_topic`.`uid` = `roc_user`.`uid` AND `roc_topic`.`schoolid` = 'B1107'AND `roc_topic`.`cid` = `roc_club`.`cid`  ORDER BY `roc_topic`.`istop` DESC, `roc_topic`.`topic` DESC LIMIT 0,30
+2015-02-09 09:03:20=>MySQL Query Error: SELECT `roc_topic`.*,`roc_user`.`nickname` as `nickname`,`roc_club`.`clubname` as `clubname` FROM `roc_topic`,`roc_user`,`roc_club` WHERE `roc_topic`.`uid` = `roc_user`.`uid` AND `roc_topic`.`schoolid` = ''AND `roc_topic`.`cid` = `roc_club`.`cid`  AND `roc_topic`.`cid` NOT IN(0) ORDER BY `roc_topic`.`istop` DESC, `roc_topic`.`topic` DESC LIMIT 0,30
+2015-02-09 14:23:24=>MySQL Query Error: 
+2015-02-09 14:23:26=>MySQL Query Error: 
+2015-02-09 14:23:27=>MySQL Query Error: 
+2015-02-09 14:23:27=>MySQL Query Error: 
+2015-02-09 14:23:27=>MySQL Query Error: 
+2015-02-09 14:24:31=>MySQL Query Error: select `roc_exam`.* from `roc_exam` where `roc_exam`.`schoolid` = B1107
+2015-02-09 14:24:40=>MySQL Query Error: SELECT `roc_topic`.*,`roc_user`.`nickname` as `nickname`,`roc_club`.`clubname` as `clubname` FROM `roc_topic`,`roc_user`,`roc_club` WHERE `roc_topic`.`uid` = `roc_user`.`uid` AND `roc_club`.`schoolid`='B1107' AND `roc_topic`.`cid` = `roc_club`.`cid` AND `roc_topic`.`cid` = 3 ORDER BY `roc_topic`.`istop` DESC, `roc_topic`.`topic` DESC LIMIT 0,30
+2015-02-09 14:29:02=>MySQL Query Error: 
+2015-02-09 14:55:09=>MySQL Query Error: select `roc_exam`.* from `roc_exam `where `roc_exam`.`schoolid` = B1107 AND `roc_topic`
+2015-02-09 14:57:31=>MySQL Query Error: select `roc_exam`.* from `roc_exam `where `roc_exam`.`schoolid` = B1107 AND `roc_topic`
+2015-02-09 14:57:31=>MySQL Query Error: select `roc_exam`.* from `roc_exam `where `roc_exam`.`schoolid` = B1107 AND `roc_topic`
+2015-02-09 14:57:32=>MySQL Query Error: select `roc_exam`.* from `roc_exam `where `roc_exam`.`schoolid` = B1107 AND `roc_topic`
+2015-02-09 14:57:32=>MySQL Query Error: select `roc_exam`.* from `roc_exam `where `roc_exam`.`schoolid` = B1107 AND `roc_topic`
+2015-02-09 14:57:32=>MySQL Query Error: select `roc_exam`.* from `roc_exam `where `roc_exam`.`schoolid` = B1107 AND `roc_topic`
+2015-02-09 14:57:32=>MySQL Query Error: select `roc_exam`.* from `roc_exam `where `roc_exam`.`schoolid` = B1107 AND `roc_topic`
+2015-02-09 14:57:32=>MySQL Query Error: select `roc_exam`.* from `roc_exam `where `roc_exam`.`schoolid` = B1107 AND `roc_topic`
+2015-02-09 14:57:33=>MySQL Query Error: select `roc_exam`.* from `roc_exam `where `roc_exam`.`schoolid` = B1107 AND `roc_topic`
+2015-02-09 14:57:33=>MySQL Query Error: select `roc_exam`.* from `roc_exam `where `roc_exam`.`schoolid` = B1107 AND `roc_topic`
+2015-02-09 14:57:33=>MySQL Query Error: select `roc_exam`.* from `roc_exam `where `roc_exam`.`schoolid` = B1107 AND `roc_topic`
+2015-02-09 14:58:48=>MySQL Query Error: select `roc_exam`.* from `roc_exam `where `roc_exam`.`schoolid` = B1107 AND `roc_topic`
+2015-02-09 14:58:50=>MySQL Query Error: select `roc_exam`.* from `roc_exam `where `roc_exam`.`schoolid` = B1107 AND `roc_topic`
+2015-02-09 14:58:50=>MySQL Query Error: select `roc_exam`.* from `roc_exam `where `roc_exam`.`schoolid` = B1107 AND `roc_topic`
+2015-02-09 14:58:51=>MySQL Query Error: select `roc_exam`.* from `roc_exam `where `roc_exam`.`schoolid` = B1107 AND `roc_topic`
+2015-02-09 14:58:51=>MySQL Query Error: select `roc_exam`.* from `roc_exam `where `roc_exam`.`schoolid` = B1107 AND `roc_topic`
+2015-02-09 14:58:51=>MySQL Query Error: select `roc_exam`.* from `roc_exam `where `roc_exam`.`schoolid` = B1107 AND `roc_topic`
+2015-02-09 14:58:51=>MySQL Query Error: select `roc_exam`.* from `roc_exam `where `roc_exam`.`schoolid` = B1107 AND `roc_topic`
+2015-02-09 14:58:52=>MySQL Query Error: select `roc_exam`.* from `roc_exam `where `roc_exam`.`schoolid` = B1107 AND `roc_topic`
+2015-02-09 14:58:53=>MySQL Query Error: select `roc_exam`.* from `roc_exam `where `roc_exam`.`schoolid` = B1107 AND `roc_topic`
+2015-02-09 15:00:05=>MySQL Query Error: select `roc_exam`.* from `roc_exam` where `roc_exam`.`schoolid` = 'B1107'  ORDER BY `roc_topic`.`istop` DESC LIMIT 0,30
+2015-02-09 17:01:33=>MySQL Query Error: select `roc_uesr`.* from `roc_user` where `roc_user`.`uid`=1
+2015-02-09 17:31:21=>Method exam Does Not Exist
+2015-02-10 17:15:23=>MySQL Query Error:  select `roc_question`.* from `roc_exam` WHERE `roc_exam`.`Id`='1'  ORDER BY Id ASC Limit 0,30
+2015-02-11 09:20:07=>Template themes/rocboss/answer.tpl Does Not Exist
+2015-02-26 09:56:35=>MySQL Query Error: SELECT * FORM `roc_testlog` WHERE 1 ORDER BY Dtt DESC LIMIT 1
+2015-02-26 09:56:36=>MySQL Query Error: SELECT * FORM `roc_testlog` WHERE 1 ORDER BY Dtt DESC LIMIT 1
+2015-02-26 09:59:11=>MySQL Query Error: SELECT `roc_testlog`.* FORM `roc_testlog` WHERE 1 ORDER BY `roc_testlog`.Dtt DESC LIMIT 1
+2015-02-26 10:10:18=>MySQL Query Error: update `roc_testLog` set `Result`=1、问：2*(1+2)=？<br/>答：C、6&nbsp;&nbsp;<br/> where Id='16' and Dtt='1424916618' and EId='1' limit 1
+2015-02-26 10:10:20=>MySQL Query Error: update `roc_testLog` set `Result`=1、问：2*(1+2)=？<br/>答：C、6&nbsp;&nbsp;<br/> where Id='17' and Dtt='1424916620' and EId='1' limit 1
+2015-02-26 10:10:27=>MySQL Query Error: update `roc_testLog` set `Result`= where Id='18' and Dtt='1424916627' and EId='1' limit 1
+2015-02-26 10:10:37=>MySQL Query Error: update `roc_testLog` set `Result`= where Id='19' and Dtt='1424916636' and EId='1' limit 1
+2015-02-26 10:10:38=>MySQL Query Error: update `roc_testLog` set `Result`= where Id='20' and Dtt='1424916638' and EId='1' limit 1
+2015-02-26 10:10:38=>MySQL Query Error: update `roc_testLog` set `Result`= where Id='20' and Dtt='1424916638' and EId='1' limit 1
+2015-02-26 10:14:01=>MySQL Query Error: update `roc_testLog` set `Result`=1、问：2*(1+2)=？<br/>答：C、6&nbsp;&nbsp;<br/> where Id='22' and Dtt='1424916841' and EId='1' limit 1
+2015-02-26 10:14:02=>MySQL Query Error: update `roc_testLog` set `Result`=1、问：2*(1+2)=？<br/>答：C、6&nbsp;&nbsp;<br/> where Id='23' and Dtt='1424916842' and EId='1' limit 1
+2015-02-26 10:14:02=>MySQL Query Error: update `roc_testLog` set `Result`=1、问：2*(1+2)=？<br/>答：C、6&nbsp;&nbsp;<br/> where Id='23' and Dtt='1424916842' and EId='1' limit 1
+2015-02-26 10:14:03=>MySQL Query Error: update `roc_testLog` set `Result`=1、问：2*(1+2)=？<br/>答：C、6&nbsp;&nbsp;<br/> where Id='25' and Dtt='1424916843' and EId='1' limit 1
+2015-02-26 10:14:03=>MySQL Query Error: update `roc_testLog` set `Result`=1、问：2*(1+2)=？<br/>答：C、6&nbsp;&nbsp;<br/> where Id='25' and Dtt='1424916843' and EId='1' limit 1
+2015-02-26 10:14:03=>MySQL Query Error: update `roc_testLog` set `Result`=1、问：2*(1+2)=？<br/>答：C、6&nbsp;&nbsp;<br/> where Id='25' and Dtt='1424916843' and EId='1' limit 1
+2015-02-26 10:14:03=>MySQL Query Error: update `roc_testLog` set `Result`=1、问：2*(1+2)=？<br/>答：C、6&nbsp;&nbsp;<br/> where Id='25' and Dtt='1424916843' and EId='1' limit 1
+2015-02-26 10:14:16=>MySQL Query Error: update `roc_testLog` set `Result`= where Id='29' and Dtt='1424916855' and EId='1' limit 1
+2015-02-26 14:02:42=>MySQL Query Error: SELECT `roc_user`.* FROM `roc_user`　WHERE `Id`=''
+2015-02-26 14:03:40=>MySQL Query Error: SELECT `roc_user`.* FROM `roc_user`　WHERE `Id`='1'
+2015-02-26 14:04:05=>MySQL Query Error: SELECT `roc_user`.* FROM `roc_user`　WHERE `Id`=1
+2015-02-26 14:07:27=>MySQL Query Error: SELECT `roc_user`.* FROM `roc_user`　WHERE `uid`=1
+2015-02-26 14:07:28=>MySQL Query Error: SELECT `roc_user`.* FROM `roc_user`　WHERE `uid`=1
+2015-02-26 14:07:43=>MySQL Query Error: SELECT `roc_user`.* FROM `roc_user`　WHERE `uid`='1'
+2015-02-26 14:07:44=>MySQL Query Error: SELECT `roc_user`.* FROM `roc_user`　WHERE `uid`='1'
+2015-02-26 14:07:44=>MySQL Query Error: SELECT `roc_user`.* FROM `roc_user`　WHERE `uid`='1'
+2015-02-26 14:07:44=>MySQL Query Error: SELECT `roc_user`.* FROM `roc_user`　WHERE `uid`='1'
+2015-02-27 10:57:18=>Method Save Does Not Exist
+2015-02-27 14:51:00=>MySQL Query Error: update `roc_option` set `Conten`='14',`IsRight`='0',`SortId`='0' where Id='5'limit 1
+2015-02-27 14:51:53=>MySQL Query Error: update `roc_option` set `Conten`='14',`IsRight`='0',`SortId`='0' where Id='5'limit 1
+2015-02-27 14:52:30=>MySQL Query Error: update `roc_option` set `Conten`='14',`IsRight`='0',`SortId`='0' where Id='5'limit 1
+2015-02-27 15:24:23=>MySQL Query Error: update `roc_option` set `Conten`='14',`IsRight`='0',`SortId`='0' where Id='5'limit 1
+2015-02-27 15:37:47=>MySQL Query Error: delect from `roc_option` where Id='5'

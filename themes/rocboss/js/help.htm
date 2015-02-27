@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>帮助</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body>
+<style type="text/css">
+.red{color:red;}
+.green{color:green;}
+</style>
+
+
+<p class="red">用法：1、先引入jquery.js 2、然后引入hxdialog.js</p>
+<p class="red">语法：</p>
+<p>1、初始化带参数	<label class="green">var d = new HXDialog({id:"Tips"});</label></p>
+<p>2、调用方法		<label class="green">var d = new HXDialog({}); d.title('提示');</label></p>
+
+
+<p class="red">常用示例</p>
+<p>1、Id唯一：<label class="green">var d = new HXDialog({id:"Tips"});</label></p>
+<p>2、无标题：<label class="green">var d = new HXDialog({title:false});</label></p>
+<p>2、3秒后自动关闭：<label class="green">var d = new HXDialog({title:"标题"}); d.content("3秒后自动关闭").time(3);</label></p>
+
+
+<p class="red">配置参数：</p>
+<p class="green">	width: 'auto',</p>
+<p class="green">	height: 'auto',</p>
+<p class="green">	left: '50%',</p>
+<p class="green">	top: '30%',	</p>
+<p class="green">	mask: false,				// 是否显示底层罩</p>
+<p class="green">	fixed: false,				// 是否静止定位</p>
+<p class="green">	esc: true,					// 是否支持Esc键关闭</p>
+<p class="green">	show: true,					// 初始化后是否显示对话框</p>
+<p class="green">	time:0,						// 显示时间 秒</p>
+<p class="green">	zIndex: 999,				// 对话框叠加高度值</p>
+<p class="green">	drag: true 					// 是否允许用户拖动位置</p>
+<p class="green">	button: [				
+				{
+					id:"btn",
+					name: '取消',
+					callback: function(){
+						alert('你取消了')
+					},
+					focus:true
+				},
+				{
+					name: '确定',
+					callback: function(){
+						this.title('你确定了');
+						return false;
+					}
+				}
+			]					//按钮</p>
+
+
+
+</body>
+</html>
